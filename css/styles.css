@@ -53,10 +53,11 @@ img.logo{
 }
 
 .cap{
-    margin-top: 100px;
-    width: 100%;
+      width: 80%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
     height: 600px;
     background: rgba(199, 219, 21, 0.685);
-
 }
 
