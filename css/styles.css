@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url("../mtm/zhongli-genshin-impact-fanart_3840x2160_xtrafondos.com.jpg");
+    background-image: url("../img/zhongli-genshin-impact-fanart_3840x2160_xtrafondos.com.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -19,7 +19,7 @@ span{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
     font-weight: 300;
     font-style: italic;
-    font-size: x-large;
+    font-size: xx-large;
     
 }
 .panel li{
@@ -31,33 +31,28 @@ span{
     margin-left: 1%;
     margin-right: 3%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     
     
 }
 .contact{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     padding-right: 2px;
     border-radius: 10px;
 
-}
-img.logo{
-    margin-top: -3%;
-    margin-left: 30%;
-    width: 90px;
-    height: 70px;
-    border-radius: 10px;   
 }
 .wave{
    position: absolute;
 }
 
-.cap{
-      width: 80%;
+.caja{
+    width: 80%;
     margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
-    background: rgba(199, 219, 21, 0.685);
-}
+    background: rgba(65, 208, 233, 0.452);
+    border-radius: 30px;
 
+}
