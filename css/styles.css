@@ -97,3 +97,9 @@ span{
 
 /*TERMINANDO EDICION DE LA CAJA PRINCIPAL*/
 
+/*PARA OCULTAR LAS CATEGORIAS*/
+
+.img{
+    display:none;
+}
+
