@@ -46,9 +46,7 @@ span{
 .wave{
    position: absolute;
 }
-
-/*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
-
+/* Cajas y sus efectos*/
 .caja{
     display: inline-block;
     height: 600px;
@@ -56,13 +54,9 @@ span{
     border-radius: 30px;
     margin-left: 5%;
     max-height: 600px;
-    overflow: hidden;
-    background-image: url(/img/shonenCaratula.jpg);
+    
 }
 
-.caja:nth-child(2){
-    background-image: url(/img/romanceCaratula.png);
-}
 
 .caja:nth-child(4){
     margin-right: 5%;
@@ -75,9 +69,39 @@ span{
 }
 
 .caja:hover{
-
-     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);  
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);  
 }
+.caja.uno{
+    background-image: url("../img/dragonBall.png");
+}
+
+.animename{
+    height: 25%;
+    max-height: 25%;
+    position: relative;
+    top: 70%;
+    border: 1px solid blanchedalmond;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.animename.dos::after{
+    content: "";
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background: black;
+    position: absolute;
+    transition: .8s ease-out;
+    
+
+}
+.animename.dos:hover:after{
+    top: 0;
+}
+
+
+/*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
 .grid{
     max-width: 100%;
     max-height: 2400px;
@@ -87,22 +111,11 @@ span{
     width: 100%;
     height: 2400px;
     border: 1px solid black;
-    margin-top: 110px;
+    margin-top: 250px;
     background-color: rgba(0, 0, 0, .4);
     padding-top: 30px;
 }
 
-.animename{
-    background-color: rgba(155, 20, 20, .5);
-    height: 15%;
-    position: relative;
-    top: 80%;
-    max-height: 15%;
-    border-radius: 0px 20px 0px 20px;
-    z-index: auto;
-    right: 3px;
-    left: 2px;
-}
 
 .categories{
     text-align: center;
