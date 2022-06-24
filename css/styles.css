@@ -73,6 +73,7 @@ span{
 .caja:nth-child(1){
     background-image: url("../img/dragonBall.png");
 }
+
 /*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
 .grid{
     max-width: 100%;
@@ -80,7 +81,8 @@ span{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 29% 29% 29%;
-    width: 100%;
+    width: 95%;
+    margin-left: 2%;
     height: 2400px;
     border: 1px solid black;
     margin-top: 250px;
