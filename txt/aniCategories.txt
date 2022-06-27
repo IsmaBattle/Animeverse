@@ -1,6 +1,12 @@
 Shonen:
 -Dragon Ball
 -Naruto
+-One Piece
+-Black Clover
+-Jujutsu Kaisen
+-Mob Psycho 100
+-Dr. Stone
+-Gintama
 -Demon Slayer
 -Boku no Hero
 -Fairy Tail
@@ -11,6 +17,16 @@ Shonen:
 -Code Geass
 -The Missfit of the Demon King
 -Boruto
+-Banished from the Hero Party, I Decided to Live a Quiet Life in the Countryside
+-Fire Force
+-Bleach
+-Fate/Zero
+-Orient
+-Radiant
+-Dragon Ball Z
+-Hinomaru Sumo
+-One-Punch Man
+-Noragami
 
 Seinen:
 -Parasyte
