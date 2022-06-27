@@ -12,14 +12,13 @@ body{
     position: relative  ;   
 }
 span{
-    color: white;
+    color: rgb(240, 240, 240);
     padding-top: 1%;
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
-    font-weight: 300;
-    font-style: italic;
+    font-family:impact;  
+    font-weight: 100;
     font-size: xx-large;
     
 }
@@ -76,7 +75,9 @@ span{
 .caja:nth-child(1){
     background-image: url("../img/shonenCaratula.jpg");
 }
-
+.caja:nth-child(2){
+    background-image: url("../img/");
+}
 
 /*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
 .grid{
