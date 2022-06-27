@@ -33,6 +33,7 @@ span{
     margin-right: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    cursor:pointer;
     
     
 }
@@ -108,12 +109,12 @@ span{
     font-size: 35px;
     font-family: Georgia;
     font-weight: 800;
-    color: rgb(5, 3, 3);
+    color: rgb(255, 255, 255);
     padding-top: 20px;
 }
 .categories::selection{
     background: red;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 /*TERMINANDO EDICION DE LA CAJA PRINCIPAL*/
