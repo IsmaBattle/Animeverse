@@ -80,16 +80,17 @@ span{
     max-height: 2400px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 29% 29% 29%;
+    grid-template-rows: 35% 35% 35%;
     width: 95%;
     margin-left: 2%;
-    height: 2400px;
-    border: 1px solid black;
+    height: 2100px;
+    border: 2px solid black;
     margin-top: 250px;
     background-color: rgba(0, 0, 0, .4);
     padding-top: 30px;
+    margin-bottom: 200px;
+    
 }
-
 
 .categories{
     text-align: center;
@@ -101,7 +102,14 @@ span{
 
 /*PARA OCULTAR LAS CATEGORIAS*/
 
-.img{
-    display:none;
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+background: rgb(36, 167, 219);
+border-radius: 50px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(6, 105, 187);
 }
 
