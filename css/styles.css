@@ -68,6 +68,7 @@ span{
 }
 
 
+
 .caja:nth-child(4){
     margin-right: 5%;
 }
@@ -130,6 +131,7 @@ span{
     background-size:cover;
 }
 /*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
+
 .grid{
     max-width: 100%;
     max-height: 2400px;
@@ -146,6 +148,24 @@ span{
     border-radius: 10px;
     
 }
+
+.grid a{
+    max-width: 100%;
+    max-height: 2400px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 35% 35% 35%;
+    width: 95%;
+    margin-left: 2%;
+    height: 2100px;
+    margin-top: 360px;
+    background:radial-gradient(rgba(20,0,130 , 0.384), rgba(20,10, 5, 0.808));
+    padding-top: 30px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    
+}
+
 .animename{
     width: 90%;
     height: 100px;
