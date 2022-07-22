@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-image: url("../img/zhongli-genshin-impact-fanart_3840x2160_xtrafondos.com.jpg");
     background-repeat: no-repeat;
@@ -85,7 +86,42 @@ span{
     background-image: url(../img/romanceCaratula.png);
     background-size:cover;
 }
-
+.caja:nth-child(4){
+    background-image: url(../img/the-legend-of-zelda-breath-of-the-wild-4065.jpg);
+    background-size:cover;
+}
+.caja:nth-child(5){
+    background-image: url(../img/14149df2a983292e4108ec99158a318f.jpeg);
+    background-size:cover;
+}
+.caja:nth-child(6){
+    background-image: url(../img/Tetta.jpg);
+    background-size:cover;
+}
+.caja:nth-child(7){
+    background-image: url(../img/romance.jpg);
+    background-size:cover;
+}
+.caja:nth-child(8){
+    background-image: url(../img/accion.jpg);
+    background-size:cover;
+}
+.caja:nth-child(9){
+    background-image: url(../img/misterio.jpg);
+    background-size:cover;
+}
+.caja:nth-child(10){
+    background-image: url(../img/Doraemon.jpg);
+    background-size:cover;
+}
+.caja:nth-child(11){
+    background-image: url(../img/Shojo.png);
+    background-size:cover;
+}
+.caja:nth-child(12){
+    background-image: url(../img/Josei.jpg);
+    background-size:cover;
+}
 /*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
 .grid{
     max-width: 100%;
@@ -96,11 +132,11 @@ span{
     width: 95%;
     margin-left: 2%;
     height: 2100px;
-    border: 2px solid black;
-    margin-top: 250px;
-    background-color: rgba(0, 0, 0, .4);
+    margin-top: 360px;
+    background:radial-gradient(rgba(255, 255, 0, 0.384), rgba(255, 0, 0, 0.808));
     padding-top: 30px;
     margin-bottom: 200px;
+    border-radius: 10px;
     
 }
 .animename{
@@ -127,16 +163,17 @@ span{
 
 /*TERMINANDO EDICION DE LA CAJA PRINCIPAL*/
 
-/*PARA OCULTAR LAS CATEGORIAS*/
+/*Scroll*/
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 9px;
+
 }
 ::-webkit-scrollbar-thumb{
-background: rgb(36, 167, 219);
+background: rgba(224, 25, 25, 0.795);
 border-radius: 50px;
 }
 ::-webkit-scrollbar-track{
-    background: rgb(6, 105, 187);
+    background:  rgba(221, 67, 67, 0.795);
 }
-
+/* Modal */
