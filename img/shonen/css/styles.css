@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/fon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.panel{ 
+    position: relative  ;   
+}
+span{
+    color: rgb(240, 240, 240);
+    padding-top: 1%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-family:impact;  
+    font-weight: 100;
+    font-size: xx-large;
+    
+}
+
+.contact{
+    width: 25px;
+    height: 22px;
+    padding-right: 2px;
+    border-radius: 10px;
+
+}
+.wave{
+   position: absolute;
+}
+
+
+/* Cajas y sus efectos*/
+.caja{
+    display: inline-block;
+    height: 600px;
+    background: rgba(255, 100, 100, 0.452);
+    border-radius: 30px;
+    margin-left: 5%;
+    max-height: 600px;
+    cursor: pointer;
+}
+
+
+.caja:nth-child(4){
+    margin-right: 5%;
+}
+.caja:nth-child(8){
+    margin-right: 5%;
+}
+.caja:nth-child(12){
+    margin-right: 5%;
+}
+
+.caja:hover{
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);  
+}
+.caja:nth-child(1){
+    background-image: url("../img/shonenCaratula.jpg");
+    
+}
+.caja:nth-child(2){
+    background-image: url(../img/aniSeinen.png);
+    background-size:cover;
+}
+.caja:nth-child(3){
+    background-image: url(../img/romanceCaratula.png);
+    background-size:cover;
+}
+.caja:nth-child(4){
+    background-image: url(../img/the-legend-of-zelda-breath-of-the-wild-4065.jpg);
+    background-size:cover;
+}
+.caja:nth-child(5){
+    background-image: url(../img/14149df2a983292e4108ec99158a318f.jpeg);
+    background-size:cover;
+}
+.caja:nth-child(6){
+    background-image: url(../img/Tetta.jpg);
+    background-size:cover;
+}
+.caja:nth-child(7){
+    background-image: url(../img/romance.jpg);
+    background-size:cover;
+}
+.caja:nth-child(8){
+    background-image: url(../img/accion.jpg);
+    background-size:cover;
+}
+.caja:nth-child(9){
+    background-image: url(../img/misterio.jpg);
+    background-size:cover;
+}
+.caja:nth-child(10){
+    background-image: url(../img/Doraemon.jpg);
+    background-size:cover;
+}
+.caja:nth-child(11){
+    background-image: url(../img/Shojo.png);
+    background-size:cover;
+}
+.caja:nth-child(12){
+    background-image: url(../img/Josei.jpg);
+    background-size:cover;
+}
+/*INICIANDO EDICION DE LA CAJA PRINCIPAL*/
+.grid{
+    max-width: 100%;
+    max-height: 2400px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 35% 35% 35%;
+    width: 95%;
+    margin-left: 2%;
+    height: 2100px;
+    margin-top: 360px;
+    background:radial-gradient(rgba(20,0,130 , 0.384), rgba(20,10, 5, 0.808));
+    padding-top: 30px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    
+}
+.animename{
+    width: 90%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: rgba(96, 117, 235, 0.473);
+    border-radius: 10px;
+}
+
+.categories{
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+.categories::selection{
+    background: red;
+    color:rgb(0, 0, 0);
+}
+
+/*TERMINANDO EDICION DE LA CAJA PRINCIPAL*/
+
+/*Scroll*/
+
+::-webkit-scrollbar{
+    width: 9px;
+
+}
+::-webkit-scrollbar-thumb{
+background: rgba(224, 25, 25, 0.795);
+border-radius: 50px;
+}
+::-webkit-scrollbar-track{
+    background:  rgba(221, 67, 67, 0.795);
+}
+/* Modal */
+
+/*FOOTER*/
+#footer{
+    width: 100%;
+    height: 200px;
+    background:radial-gradient(rgba(20,0,50 , 0.384), rgba(2,10, 5, 0.808));
+    color: white;
+    position: relative;
+}
+
+#footer h1{
+    text-align: center;
+    line-height: 100px;
+}
+
+#footer li{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    display: inline-flex;
+    list-style: none;
+    float: right;
+    margin-top: -1%;
+    margin-left: 1%;
+    margin-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor:pointer;
+}
+/*FIN DEL FOOTER*/
+
