@@ -25,7 +25,7 @@ span{
     padding-top: 1%;
     padding-bottom: 50px;
     display: flex;
-    justify-content: centera;
+    justify-content: center;
     font-family:impact;  
     font-weight: 100;
     font-size: xx-large;
@@ -48,9 +48,12 @@ span{
    background-size: cover;
    border: 1px solid;
   /*background:rgba(224, 25, 25, 0.623);*/
-   width:  70%;
+   width:  75%;
    height: 200px;
+   -webkit-clip-path: polygon(62% 0, 100% 0, 100% 100%, 0 100%);
+   clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
 }
+
 
 
 /* Cajas y sus efectos*/
@@ -174,11 +177,11 @@ span{
 
 }
 ::-webkit-scrollbar-thumb{
-background: rgba(224, 25, 25, 0.795);
+background: rgba(112, 98, 98, 0.795);
 border-radius: 50px;
 }
 ::-webkit-scrollbar-track{
-    background:  rgba(221, 67, 67, 0.795);
+    background:  rgba(0, 0, 0, 0.795);
 }
 /* Modal */
 
