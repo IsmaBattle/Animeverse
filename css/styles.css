@@ -42,7 +42,7 @@ span{
 .wave{
    
    position: absolute;
-   background-image: url(../img/Con\ titulo.png)
+   background-image: url(../img/ctitulo.png);
    right: 0;
    background-repeat: no-repeat;
    background-size: cover;
