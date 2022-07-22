@@ -4,10 +4,9 @@
 }
 
 body{
-   /* background-image: url("../img/zhongli-genshin-impact-fanart_3840x2160_xtrafondos.com.jpg");*/
-    background-image: url(../img/negro.jpg );
+    background-image: url("../img/fon.jpg");
     background-repeat: no-repeat;
-    background-attachment: cover;
+    background-attachment: fixed;
     background-size: cover;
 }
 .panel{ 
